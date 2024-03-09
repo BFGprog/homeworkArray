@@ -56,16 +56,12 @@ public class Main {
 
         // Task 4
         System.out.println("\n" + "Task 4");
-        for (int i = 0; i < arr1.length - 1 ; i++) {
+        for (int i = 0; i < arr1.length; i++) {
             if (arr1[i] % 2 != 0) {
-
-                System.out.print(arr1[i] + 1 + ", ");
-            } else {
-                System.out.print(arr1[i] + ", ");
+                arr1[i] += 1;
             }
-        }
-        if (arr1[arr1.length - 1] % 2 != 0){
-            System.out.println(arr1[arr1.length - 1] + 1);
+                System.out.print(arr1[i] + " ");
+
         }
 
 
